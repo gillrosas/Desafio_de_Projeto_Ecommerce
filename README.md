@@ -13,6 +13,9 @@ select * from product;
 select * from orders;
 select * from productOrder;
 
+
+![Produto/Cliente]{https://github.com/gillrosas/Desafio_de_Projeto_Ecommerce/blob/main/produtos%20por%20clientes.PNG}
+
 -- Produtos por clientes
 select Fname, Pname from client, product;
 
