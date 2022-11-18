@@ -7,7 +7,6 @@
 ### Realizações das querys:
 
 ``
-
 use ecommerce;
 desc client;
 select * from client;
@@ -45,7 +44,5 @@ order by Fname;
 -- utilizando Having 
 select * from product 
 having Pname = "Chocolate";
-
-
 ``
 
