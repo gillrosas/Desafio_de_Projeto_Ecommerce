@@ -19,13 +19,15 @@ select * from productOrder;
 ```
 -- Produtos por clientes
 select Fname, Pname from client, product;
-
+```
+```
 -- algum vendendor is fornecedor
 select distinct v.SocialName, f.SocialName  from supplier as v, seller as f
       where (v.SocialName=f.SocialName);
 select * from seller;
-
-
+```
+![Produto/Cliente](https://github.com/gillrosas/Desafio_de_Projeto_Ecommerce/blob/main/vendendor_fornecedor.PNG)
+```
 -- relação entre produtos forncedores e estoque 
 select * from product;
 select * from supplier;
